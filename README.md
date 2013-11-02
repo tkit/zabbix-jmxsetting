@@ -21,3 +21,10 @@ Zabbixの管理画面から、[設定]→[アクション]→イベントソー�
 * 次で実行 : Zabbixサーバー
 * コマンド : `(path)/zabbix-jmxsetting.sh {HOST.HOST} {HOST.IP}`
 
+注意事項
+-----
+事前に、スクリプト内でそれぞれの環境用に以下を書き換えてください。
+
+* TEMPLATE_JMX : JMXテンプレート名
+* ADMINUSER : ZABBIX WEB管理者ユーザ名
+* ADMINPASSWORD : ZABBIX WEB管理者パスワード
