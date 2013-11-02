@@ -9,7 +9,7 @@ TEMPLATE_JMX="Template JMX Tomcat 7"
 
 # トークン取得用のユーザ名/パスワード
 ADMINUSER="Admin"
-ADMINPASSWORD="zbxqas!"
+ADMINPASSWORD="Password"
 
 JMX_IF_IP="${ADDIP}"
 JMX_IF_DNS=""
